@@ -1,14 +1,21 @@
 {
-  "name": "your-app",
+  "name": "portfolio-app",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^13.5.0",  // Make sure you're using Next.js 13+
+    "next": "^13.4.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.4.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
